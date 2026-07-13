@@ -35,7 +35,7 @@ I build these tools using practical Python, VS Code, Google Colab, and LLM APIs.
 | `bank_statement_parser.py` | Parses multi-page bank statement PDFs via Vision AI, featuring defensive number cleaning (handling mixed decimal/thousand separators) and balance reconstruction. |
 | `invoice_extractor.py` | A hybrid engine (Gemini Cloud + EasyOCR local fallback) for processing batches of invoices, using geometric cropping to isolate handwritten totals when cloud APIs fail. |
 | `api_health_checker.py` | A universal API validator that tests endpoint connectivity, latency, and JSON response integrity, providing specific troubleshooting suggestions on failure. |
-| `gmaps_data_cleaner.py` | *(Bonus)* Cleans raw CSV exports from Google Maps and programmatically generates validated WhatsApp API links for B2B outreach. |
+
 
 ---
 
